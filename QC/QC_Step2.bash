@@ -1,25 +1,3 @@
-### Combining files of the same chromosome to one file
-t=$(seq 1 22)
-total="$t X Y"
-for i in $total; do
-    cat SiriusWork.txt | grep "_c${i}_" > merge_list_chr${i}.txt
-done
-
-for i in $total; do
-	cat merge_list_chr${i}.txt | head -n 1 >> merge_list_first_row_clean.txt
-done
-
-while read i;do
-  n=`echo $i| awk '{print $1}'`
-  bfile=`echo $i| awk '{print $2}'`
-  plink \
-  --bfile ${bfile} \
-  --merge-list ~/UKB_WES_data/qcstep1/merge_by_chrom/sed_1d/merge_list_chr${n}.txt \
-  --make-bed \
-  --out ~/UKB_WES_data/qcstep1/plink_qc_chr/ukb_wes_chr${n}_qc
-done < ~/UKB_WES_data/qcstep1/merge_by_chrom/merge_list_first_row_clean.txt
-
-
 ### Variant quality control
 ls | grep "merge_list_chr" > merged.txt
 while read lines; do
