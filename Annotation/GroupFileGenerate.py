@@ -1,17 +1,11 @@
-cd /home1/Huashan1/SiriusWhite/AIDs/VEP/REVEL
-# > R 用REVEL_Clean.txt筛选一下自己的基因及位点得分
-
-python3 #重新生成注释的groupfile
+# Changing into the format that SAIGE could recognize
 import pandas as pd; import numpy as ny; import os, csv
 file_input = os.listdir(os.getcwd())
 newfilelist = []
 for i in range(len(file_input)):
      if file_input[i].startswith("LOFTEE_REVEL50"):
              newfilelist.append(file_input[i])
-#假设都叫REVEL_XX.csv (eg: REVEL_75.csv，这里都是一些评分大于75的missense位点) ,包含四列：
-# GENE  ID  type    score
-# CD1D  chr1:xx:A:G missense    80 
-          
+
 for i in range(0,22):
     test = pd.read_csv(newfilelist[i],sep="\t")
     gene = list(set(test['Gene']))
@@ -33,8 +27,6 @@ for i in range(0,22):
     print(i)
 
 quit()
-
-#然后用cat,tr将逗号变成\t分割，新的groupfile计算SAIGE step2得到beta
 
 for i in range(0, 22):
     test = pd.read_csv(newfilelist[i], sep="\t")
