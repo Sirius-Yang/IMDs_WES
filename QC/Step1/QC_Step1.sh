@@ -61,7 +61,7 @@ main() {
          python3 genotype
 
     # Step 4: uploading results
-         dx upload -r $HOME/data/plink/ --destination "project-GF4jpV8JyFyK68BP64YpqFYQ:/Sirius_data/plinkwbs"
+         dx upload -r $HOME/data/plink/ --destination "project-GF4jpV8JyFyK68BP64YpqFYQ:/Sirius_data/plink"
 		 rm -r ~/data/		 
 		 ((position+=20))
 	
