@@ -20,12 +20,6 @@ cat ambiguous* > ambiguous_snp.txt
 plink2 --extract intersect_snp.txt --snps-only --exclude ambiguous_snp.txt --indep-pairwise 200 100 0.1 --make-bed --out wes_array_snp_v1
 plink2 --bfile wes_array_snp_v1 --indep-pairwise 200 100 0.05 --out wes_array_snp_v2
 
-#High quality independent X-chromosomal subset
-echo "X 2781479 155701383 pseudo-autosomal_regions" > pseudo-autosomal_regions.txt
-plink2 --bfile test_qc_chrX --chr X --exclude pseudo-autosomal_regions.txt --range --make-bed --out high_quality_chrX
-plink2 --bfile high_quality_chrX --geno 0.01 --hwe 10e-6 --indep-pairwise 200 100 0.1 --make-bed --out high_quality_chrX_v1
-plink2 --bfile high_quality_chrX_v1 --indep-pairwise 200 100 0.05 --out high_quality_chrX_v2
-
 ###Sample quality control
 king -b high_quality_v2.bed --related 计算HetConc
 #合并wes_array为一个家系
