@@ -1,4 +1,4 @@
-# head of loftee_chr14.txt
+# head of loftee_chr14.txt, LoF=LC were used as plof variants in case-control enrichment
 
 
 ## ENSEMBL VARIANT EFFECT PREDICTOR v101.0
