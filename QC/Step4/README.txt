@@ -9,7 +9,7 @@ High-quality SNPs were selected by using HighQuality.sh, which filtered:
 
 ---
 
-Duplicated individuals were identified using king software in Noduplicated.sh, with results saved in the king.con file. 
+Duplicated individuals were identified using king software in Nodup.sh, with results saved in the king.con file. 
 An example of the first few lines of this file is provided (king_example.con).
 
 Kinship coefficients were calculated with Relative.sh, with a kinship threshold set at 0.0884 (second-degree relatives). 
