@@ -1,5 +1,6 @@
+# Calculate PCA after excluding duplicated samples and relative samples using high quality variants
 plink2 --bfile ukb_wes_chr_all_king_sample_qc \
---exclude \
+--keep norelate_nodup.txt \
 --make-bed \
 --out ukb_wes_chr_all_king_sample_qc_final_unrelated
 
