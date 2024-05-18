@@ -1,4 +1,4 @@
-Step2: Variant quality control
+Step2: Variant QC
 ---
 
 Since the WES data from UKB is provided in many small files, the results from QCStep1 are first merged by chromosome using Combination.sh 
