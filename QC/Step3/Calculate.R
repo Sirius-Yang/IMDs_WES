@@ -1,3 +1,4 @@
+# Calculating those Ti/Tv, Het/Hom, SNV/indels, and number of singletons out of 8 s.d. and sample call rate < 0.9
 library(data.table)
 setwd("/home1/Huashan1/UKB_WES_data/qcstep4/sample_qc/")
 rm(list = ls())
