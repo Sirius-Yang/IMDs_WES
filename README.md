@@ -1,4 +1,4 @@
-# IMDs_WES
+---
 This repository contains code of the main steps for quality control, annotation of VEP, association test for common (logisitic) and rare (SKAT) variants, and post analyses.
 
 The complete analysis workflow begins with quality control (QC) from Step1 to Step4. 
@@ -9,5 +9,8 @@ Subsequently, variant and gene-based association tests are conducted separately 
 
 Finally, various post-analyses are performed, including BHR heritage analysis and correlation analysis, convergene with GWAS signals, Cox survival analysis, Gene expression, MR analysis, annotating amino acid alterations, Proteomic-wide analysis, and PheWAS analysis. We have uploaded important codes for this section.
 
+
+---
 Workflow: QC -> Annotation -> Association -> PostAnalysis
-Under each directory, we further provided a README.txt in which more detailed information is provided, and the important input files or result files (that are not bed/bim/fam format) to provide a more direct visuallization.
+
+In each directory, we have included a README.txt file that provides more detailed information. We further provided important input or result files (excluding those in bed/bim/fam formats) to facilitate better visualization.
