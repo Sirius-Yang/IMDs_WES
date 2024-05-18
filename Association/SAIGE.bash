@@ -1,4 +1,4 @@
-
+# Gene-based analysis for rare variants
 for i in {1..22}; do
 Rscript step1_fitNULLGLMM.R     \
     --sparseGRMFile=UKB_GRM_relatednessCutoff_0.05_5000_randomMarkersUsed_relatednessCutoff_0.05_5000_randomMarkersUsed.sparseGRM.mtx \
