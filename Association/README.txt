@@ -1,7 +1,6 @@
 ---
 For rare variants (maf < 0.01), we use SAIGE for gene-based collapse analysis. 
-First, a sparse GRM is created using the GRM.sh script, which only needs to be run once.
-The GRM will be adjusted in subsequent SAIGE analyses. 
+First, a sparse GRM is created using the GRM.sh script, which only needs to be run once. This GRM will be adjusted in subsequent SAIGE analyses. 
 Then, we run the SAIGE.sh script, which performs Step1 and Step2 sequentially to obtain gene-based results. 
 
 ---
