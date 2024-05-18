@@ -3,13 +3,13 @@ import pandas as pd; import numpy as ny; import os, csv
 file_input = os.listdir(os.getcwd())
 newfilelist = []
 for i in range(len(file_input)):
-     if file_input[i].startswith("LOFTEE_REVEL50"):
+     if file_input[i].startswith("plof_mis_chr"):
              newfilelist.append(file_input[i])
 
 for i in range(0,22):
     test = pd.read_csv(newfilelist[i],sep="\t")
     gene = list(set(test['Gene']))
-    t = newfilelist[i].split("LOFTEE_REVEL25_chr")[1].split(".csv")[0]
+    t = newfilelist[i].split("plof_mis_chr")[1].split(".csv")[0]
     print(t)
     for j in range(len(gene)):
         listA = ['^',gene[j],'$']
@@ -23,24 +23,7 @@ for i in range(0,22):
         exec(f"data.append(effect_{j})")  
     data = pd.DataFrame(data)
     data.head
-    exec(f"data.to_csv('LOFTEE_REVEL25_chr{t}.csv',index=False, header=False)")
+    exec(f"data.to_csv('plof_mis_chr{t}.csv',index=False, header=False)")
     print(i)
 
 quit()
-
-for i in range(0, 22):
-    test = pd.read_csv(newfilelist[i], sep="\t")
-    gene_set = set(test['Gene'])
-    t = newfilelist[i].split("LOFTEE_REVEL50_chr")[1].split(".csv")[0]
-    data_collection = []
-    
-    for gene in gene_set:
-        gene_pattern = f'^{gene}$'
-        data_subset = test[test['Gene'].str.contains(gene_pattern, na=False)]
-        pos_data = [gene, 'var'] + data_subset['Pos'].tolist()
-        effect_data = [gene, 'anno'] + data_subset['type'].tolist()
-        data_collection.extend([pos_data, effect_data])
-    
-    data_df = pd.DataFrame(data_collection)
-    data_df.to_csv(f'LOFTEE_REVEL50_chr{t}.csv', index=False, header=False)
-    print(i)
