@@ -17,7 +17,9 @@ Workflow: QC -> Annotation -> Association -> PostAnalysis
 In each directory, we have included a README.txt file that provides more detailed information. We further provided important input or result files (excluding those in bed/bim/fam formats) to facilitate better visualization.
 
 ---
-Plot1 : Study Design. Crafted by Adobe, no analysis, no code.
+Plot1 : 
+
+Study Design. Crafted by Adobe, no analysis, no code.
 
 Plot2 : 
 
