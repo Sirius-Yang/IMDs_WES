@@ -6,5 +6,5 @@ for i in {1..22};do
 --sample-counts 'cols'=hom,het,ts,tv,dipsingle,single,missing \
 --make-just-bim \
 --make-just-fam \
---out /home1/Huashan1/UKB_WES_data/qcstep3/sample_qc/ukb_wes_chr${i}_sample_qc
+--out /home1/Huashan1/UKB_WES_data/qcstep3/WES_step3v1_chr${i}
 done
