@@ -23,7 +23,7 @@ Study Design. Crafted by Adobe, no analysis, no code.
 
 Plot2 : 
 
-· (A) Result of gene-based collapse analysis for rare vairants, main result 1. All codes are provided (QC, Annotation, and performing GRM.sh, SAIGE.sh)
+· (A) Result of gene-based collapse analysis for rare vairants, main result 1. All codes are provided (QC, Annotation, and GRM.sh, SAIGE.sh)
 
 · (B) Result of case-control enrichment. 
 
@@ -33,7 +33,7 @@ Plot3 :
 
 · (B) Convergence of GWAS signals. Main code to perform GWAS association test is provided (GWAS.sh)
 
-· (C) Pleiotropy effect of common variants.
+· (C) Pleiotropy effect of common variants. It summarized results of 3A so no codes provided.
 
 Plot4 :
 
