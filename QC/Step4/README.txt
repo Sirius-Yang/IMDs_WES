@@ -1,11 +1,13 @@
 Step4 :  Calculating kinship and PCA using high-quality SNPs. 
 ---
 
-High-quality SNPs were selected by using HighQuality.sh:
+High-quality SNPs were selected by using HighQuality.sh, which filtered:
 · a minor allele frequency (MAF) > 0.1%
 · call rate > 99%
 · HWE P-value > 1x10^-6. 
 · two rounds of pruning (Plink parameters: -indep-pairwise 200 1000.1 and -indep-pairwise 200 100 0.05). 
+
+---
 
 Duplicated individuals were identified using king software in NoDuplicated.sh, with results saved in the king.con file. 
 An example of the first few lines of this file is provided (king_example.con).
@@ -15,4 +17,4 @@ An example of the first few lines of kinship result was provided (ukb_wes_chr_al
 To maximize sample retention, for each pair with a kinship coefficient > 0.0884, we iteratively removed individuals related to multiple others until none remained, then randomly removed one individual from each related pair by using keep_unrelated_2nd.R. 
 
 Finally, we removed duplicated and second-degree related samples from the entire dataset and the high-quality variants. 
-PCA was then calculated using high-quality variants (PCA.sh), and the first 10 PCA (an example: ukb_wes_chr_all_king_sample_qc_final_unrelated.eigenval) were used as covariates in SAIGE.
+PCA was then calculated using high-quality variants (PCA.sh), and the first 10 PCA (an example: ukb_wes_chr_all_king_sample_qc_final_unrelated.eigenval) were used as covariates in association tests for common and rare variants.
