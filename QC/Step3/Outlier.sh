@@ -10,3 +10,4 @@ for i in {1..22};do
 done
 
 # Those with Ti/Tv outside 8 s.d. from the mean in file ukb_wes_chr${i}_sample_qc were then exclude 
+# 还有别的
