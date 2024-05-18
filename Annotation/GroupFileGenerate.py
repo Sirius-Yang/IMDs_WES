@@ -23,7 +23,7 @@ for i in range(0,22):
         exec(f"data.append(effect_{j})")  
     data = pd.DataFrame(data)
     data.head
-    exec(f"data.to_csv('plof_mis_chr{t}.csv',index=False, header=False)")
+    exec(f"data.to_csv('SnpEff_gene_group_chr{t}.txt',index=False, header=False)")
     print(i)
 
 quit()
