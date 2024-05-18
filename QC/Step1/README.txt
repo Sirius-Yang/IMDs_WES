@@ -1,3 +1,6 @@
+Step1 : Genotype QC
+---
+
 The central script used for Step1 is `genotype.py`. Among this script, two steps were carried out, include:
 
 1, Split multi-allelic sites to represent separate bi-allelic sites
