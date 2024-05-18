@@ -3,6 +3,7 @@ for i in {1..22};
 do
 java -jar snpEff.jar  GRCh38.105 /home1/Huashan1/UKB_WES_data/snpEff/input/ukb_wes_chr${i}_qc.bim > /home1/Huashan1/UKB_WES_data/snpEff/output/GRCh38.105/ukb_wes_chr${i}_qc.vcf \
 ;done
+  # 以上得到的splice等
 
 ###snpEff dbnsfp
 for i in {1..22};
