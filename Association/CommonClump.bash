@@ -1,4 +1,4 @@
-#Clump之前记得先做rsID和pos转换
+# Clump the results of common variants
 #!/bin/bash
 Pheno=$1
 ResultName=$2
