@@ -2,9 +2,9 @@
 # Calculating Ti/Tv, Het/Hom, SNV/indels, number of singletons, and sample call rate
 # Exclude Ti/Tv, Het/Hom, SNV/indels, and number of singletons out of 8 s.d, and sample call rate < 0.9 from ID list
 library(data.table)
-setwd("/home1/Huashan1/UKB_WES_data/qcstep4/sample_qc/")
+setwd("/home1/Huashan1/UKB_WES_data/QCstep3")
 rm(list = ls())
-filelist <- list.files("/home1/Huashan1/UKB_WES_data/qcstep4/sample_qc/")
+filelist <- list.files("/home1/Huashan1/UKB_WES_data/QCstep3")
 filelist<-grep("scount$",filelist,value = T)
 
 sample_id<-as.data.frame(matrix(nrow=453812,ncol=22))
@@ -63,4 +63,4 @@ sample_qc_final_keep<-intersect(Ti_Tv_pass,Het_Hom_pass) %>% intersect(singleton
 sample_qc_final_keep$FID<-0
 sample_qc_final_keep<-sample_qc_final_keep[,c(2,1)]
 
-write.table(sample_qc_final_keep,"~/UKB_WES_data/qcstep4/sample_qc/sample_qc_final_keep.txt",sep = "\t",row.names = F,quote = F)
+write.table(sample_qc_final_keep,"~/UKB_WES_data/QCstep3/sample_qc_final_keep.txt",sep = "\t",row.names = F,quote = F)
