@@ -24,8 +24,11 @@ while continue_signal and len(data) > 0:
 
     # 汇总ID
     all_id = pd.concat([data['ID1'], data['ID2']])
-    sum_df = pd.DataFrame(all_id.value_counts(), columns=['Freq'])
-    sum_df.sort_values('Freq', inplace=True)
+    counts = all_id.value_counts()
+    sum_df = pd.DataFrame({
+        'all_id': counts.index,
+        'Freq': counts.values
+    }）
     sum_df.reset_index(inplace=True)
     sum_df.rename(columns={'index': 'all_id'}, inplace=True)
 
