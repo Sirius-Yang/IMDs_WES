@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 
+# Using results from Related.sh to further select independent samples
 data = pd.read_csv('~/UKB_WES_data/qcstep4/ukb_wes_chr_all_king_sample_qc.kin0', delimiter='\t')
 data.rename(columns={data.columns[1]: "ID1", data.columns[3]: "ID2", data.columns[7]: "Kinship"}, inplace=True)
 data = data[data['Kinship'] >= 0.0884]
@@ -37,11 +38,11 @@ for i in range(len(data_only_id)):
     random = np.random.randint(0, 2)
     data_only_remove.iloc[i, 0] = data_only_id.iloc[i, random] # No relative left, indepentd IDs remained
 
-# All of the IDs that exist relative relationships and save the results to further excluded by plink
+# Get all of the IDs that has relative relationships and save the results to further excluded by plink
 data_id = pd.read_csv('~/UKB_WES_data/qcstep4/ukb_wes_chr_all_king_sample_qc.kin0', delimiter='\t')
 data_id = data_id[data_id['KINSHIP'] >= 0.0884]
 data_id_all = pd.unique(pd.concat([data_id['IID1'], data_id['IID2']]))
 related_sample_remove = np.setdiff1d(data_id_all, data_only_remove[0])
 
 result = pd.DataFrame(related_sample_remove, columns=['Related_Sample_Remove'])
-result.to_csv('~/UKB_WES_data/qcstep4/keep_unrelated_wbs_2nd_related_sample_remove.txt', sep='\t', index=False, header=False)
+result.to_csv('~/UKB_WES_data/qcstep4/related_2nd_sample_remove.txt', sep='\t', index=False, header=False)
