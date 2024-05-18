@@ -1,0 +1,11 @@
+# head of REVEL_chr15.csv
+chr15:20534511:C:T      15:20534511     T       ENSG00000277322 ENST00000619213 Transcript      synonymous_variant      2014    1923    641     E gaG/gaA  -       IMPACT=LOW;STRAND=-1
+chr15:20534513:C:T      15:20534513     T       ENSG00000277322 ENST00000619213 Transcript      missense_variant        2012    1921    641     E/KGag/Aag -       IMPACT=MODERATE;STRAND=-1;REVEL=0.053
+chr15:20534520:T:C      15:20534520     C       ENSG00000277322 ENST00000619213 Transcript      synonymous_variant      2005    1914    638     Q caA/caG  -       IMPACT=LOW;STRAND=-1
+chr15:20534524:A:G      15:20534524     G       ENSG00000277322 ENST00000619213 Transcript      missense_variant        2001    1910    637     M/TaTg/aCg -       IMPACT=MODERATE;STRAND=-1;REVEL=0.082
+chr15:20534526:C:T      15:20534526     T       ENSG00000277322 ENST00000619213 Transcript      synonymous_variant      1999    1908    636     K aaG/aaA  -       IMPACT=LOW;STRAND=-1
+chr15:20534530:T:C      15:20534530     C       ENSG00000277322 ENST00000619213 Transcript      missense_variant        1995    1904    635     E/GgAg/gGg -       IMPACT=MODERATE;STRAND=-1;REVEL=0.042
+chr15:20534531:C:T      15:20534531     T       ENSG00000277322 ENST00000619213 Transcript      missense_variant        1994    1903    635     E/KGag/Aag -       IMPACT=MODERATE;STRAND=-1;REVEL=0.046
+chr15:20534540:C:T      15:20534540     T       ENSG00000277322 ENST00000619213 Transcript      missense_variant        1985    1894    632     E/KGag/Aag -       IMPACT=MODERATE;STRAND=-1;REVEL=0.009
+chr15:20534542:C:T      15:20534542     T       ENSG00000277322 ENST00000619213 Transcript      missense_variant        1983    1892    631     C/YtGt/tAt -       IMPACT=MODERATE;STRAND=-1;REVEL=0.015
+chr15:20534547:C:G      15:20534547     G       ENSG00000277322 ENST00000619213 Transcript      missense_variant        1978    1887    629     K/NaaG/aaC -       IMPACT=MODERATE;STRAND=-1;REVEL=0.031
