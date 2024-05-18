@@ -1,6 +1,6 @@
 Large-scale whole exome sequencing of immune-mediated diseases in 350770 adults 
 ---
-This repository contains code of the main steps for quality control, annotation of VEP, association test for common (logisitic) and rare (SKAT) variants, and post analyses.
+This repository contains code of the main steps for quality control, annotation, association test for common (logisitic) and rare (SKAT) variants, and post analyses.
 
 The complete analysis workflow begins with quality control (QC) from Step1 to Step4. 
 
