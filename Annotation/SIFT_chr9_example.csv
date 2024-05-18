@@ -1,0 +1,23 @@
+# head of ukb_wes_chr10_qc_five.vc
+
+
+
+##SnpSiftVersion="SnpSift 5.1d (build 2022-04-19 15:50), by Pablo Cingolani"
+##SnpSiftCmd="SnpSift DbNsfp -f genename,Ensembl_geneid,Uniprot_acc,LRT_pred,Polyphen2_HDIV_pred,MutationTaster_pred,Polyphen2_HVAR_pred,SIFT_pred /home1/Huashan1/UKB_WES_data/snpEff/input/ukb_wes_chr10_qc.bim"
+##INFO=<ID=dbNSFP_Polyphen2_HDIV_pred,Number=A,Type=Character,Description="Field 'Polyphen2_HDIV_pred' from dbNSFP">
+##INFO=<ID=dbNSFP_genename,Number=A,Type=String,Description="Field 'genename' from dbNSFP">
+##INFO=<ID=dbNSFP_MutationTaster_pred,Number=A,Type=Character,Description="Field 'MutationTaster_pred' from dbNSFP">
+##INFO=<ID=dbNSFP_Ensembl_geneid,Number=A,Type=String,Description="Field 'Ensembl_geneid' from dbNSFP">
+##INFO=<ID=dbNSFP_Uniprot_acc,Number=A,Type=String,Description="Field 'Uniprot_acc' from dbNSFP">
+##INFO=<ID=dbNSFP_Polyphen2_HVAR_pred,Number=A,Type=Character,Description="Field 'Polyphen2_HVAR_pred' from dbNSFP">
+##INFO=<ID=dbNSFP_LRT_pred,Number=A,Type=Character,Description="Field 'LRT_pred' from dbNSFP">
+##INFO=<ID=dbNSFP_SIFT_pred,Number=A,Type=Character,Description="Field 'SIFT_pred' from dbNSFP">
+#CHROM  POS     ID      REF     ALT     QUAL    FILTER  INFO
+10      47129   chr10:47129:T:C T       C       0.0     NA      NA
+10      47134   chr10:47134:A:G A       G       0.0     NA      NA;dbNSFP_Ensembl_geneid=ENSG00000261456,ENSG00000261456,ENSG00000261456;dbNSFP_LRT_pred=N;dbNSFP_MutationTaster_pred=D,D,D,D,D;dbNSFP_Polyphen2_HDIV_pred=.,.,D;dbNSFP_Polyphen2_HVAR_pred=.,.,P;dbNSFP_SIFT_pred=D,.,.;dbNSFP_Uniprot_acc=Q5SQY0,A0A075B736,Q3ZCM7;dbNSFP_genename=TUBB8,TUBB8,TUBB8
+10      47140   chr10:47140:G:A G       A       0.0     NA      NA
+10      47144   chr10:47144:G:A G       A       0.0     NA      NA
+10      47158   chr10:47158:C:T C       T       0.0     NA      NA;dbNSFP_Ensembl_geneid=ENSG00000261456,ENSG00000261456,ENSG00000261456;dbNSFP_LRT_pred=U;dbNSFP_MutationTaster_pred=D,D,D,D,D;dbNSFP_Polyphen2_HDIV_pred=.,.,P;dbNSFP_Polyphen2_HVAR_pred=.,.,B;dbNSFP_SIFT_pred=D,.,.;dbNSFP_Uniprot_acc=Q5SQY0,A0A075B736,Q3ZCM7;dbNSFP_genename=TUBB8,TUBB8,TUBB8
+10      47159   chr10:47159:G:A G       A       0.0     NA      NA
+10      47165   chr10:47165:G:A G       A       0.0     NA      NA
+10      47187   chr10:47187:C:T C       T       0.0     NA      NA;dbNSFP_Ensembl_geneid=ENSG00000261456,ENSG00000261456,ENSG00000261456;dbNSFP_LRT_pred=U;dbNSFP_MutationTaster_pred=D,D,D,D,D;dbNSFP_Polyphen2_HDIV_pred=.,.,D;dbNSFP_Polyphen2_HVAR_pred=.,.,D;dbNSFP_SIFT_pred=D,.,.;dbNSFP_Uniprot_acc=Q5SQY0,A0A075B736,Q3ZCM7;dbNSFP_genename=TUBB8,TUBB8,TUBB8
