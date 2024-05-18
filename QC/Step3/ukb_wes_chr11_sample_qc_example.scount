@@ -1,0 +1,11 @@
+# head of ukb_wes_chr11_sample_qc.scount, generate by Outiler.sh, further used in Calculate.R
+#IID    HOM_CT  HET_CT  TRANSITION_CT   TRANSVERSION_CT DIPLOID_SINGLETON_CT    SINGLETON_CT    MISSING_CT
+1000012 1232987 1489    1260    421     0       0       13956
+1000029 1240688 1308    1172    377     1       1       6436
+1000031 1246123 1443    1279    402     0       0       866
+1000047 1236936 1450    1233    409     0       0       10046
+1000050 1242689 1323    1204    345     1       1       4420
+1000068 1243232 1274    1147    374     4       4       3926
+1000073 1230977 1287    1209    386     1       1       16168
+1000085 1246221 1273    1152    392     2       2       938
+1000094 1238801 1431    1298    428     0       0       8200
