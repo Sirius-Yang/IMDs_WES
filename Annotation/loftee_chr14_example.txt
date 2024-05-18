@@ -1,0 +1,59 @@
+# head of loftee_chr14.txt
+
+
+## ENSEMBL VARIANT EFFECT PREDICTOR v101.0
+## Output produced at 2023-10-08 03:28:46
+## Connected to homo_sapiens_core_101_38 on ensembldb.ensembl.org
+## Using cache in /home1/Huashan1/.vep/homo_sapiens/108_GRCh38
+## Using API version 101, DB version 101
+## ensembl-funcgen version 101.b918a49
+## ensembl-variation version 101.819eef2
+## ensembl version 101.856c8e8
+## ensembl-io version 101.943b6c2
+## ClinVar version 202205
+## dbSNP version 154
+## genebuild version 2014-07
+## gencode version GENCODE 42
+## HGMD-PUBLIC version 20204
+## gnomADg version v3.1.2
+## sift version sift5.2.2
+## COSMIC version 96
+## 1000genomes version phase3
+## assembly version GRCh38.p13
+## regbuild version 1.0
+## gnomADe version r2.1.1
+## polyphen version 2.2.2
+## Column descriptions:
+## Uploaded_variation : Identifier of uploaded variant
+## Location : Location of variant in standard coordinate format (chr:start or chr:start-end)
+## Allele : The variant allele used to calculate the consequence
+## Gene : Stable ID of affected gene
+## Feature : Stable ID of feature
+## Feature_type : Type of feature - Transcript, RegulatoryFeature or MotifFeature
+## Consequence : Consequence type
+## cDNA_position : Relative position of base pair in cDNA sequence
+## CDS_position : Relative position of base pair in coding sequence
+## Protein_position : Relative position of amino acid in protein
+## Amino_acids : Reference and variant amino acids
+## Codons : Reference and variant codon sequence
+## Existing_variation : Identifier(s) of co-located known variants
+## Extra column keys:
+## IMPACT : Subjective impact classification of consequence type
+## DISTANCE : Shortest distance from variant to transcript
+## STRAND : Strand of the feature (1/-1)
+## FLAGS : Transcript quality flags
+## LoF : Loss-of-function annotation (HC = High Confidence; LC = Low Confidence)
+## LoF_filter : Reason for LoF not being HC
+## LoF_flags : Possible warning flags for LoF
+## LoF_info : Info used for LoF annotation
+#Uploaded_variation     Location        Allele  Gene    Feature Feature_type    Consequence     cDNA_position   CDS_position    Protein_position  Amino_acids      Codons  Existing_variation      Extra
+chr14:18601122:T:C      14:18601122     C       ENSG00000257115 ENST00000550708 Transcript      synonymous_variant      6       6       2       C tgT/tgC  -       IMPACT=LOW;STRAND=1
+chr14:18601122:T:C      14:18601122     C       ENSG00000257959 ENST00000552261 Transcript      upstream_gene_variant   -       -       -       - --       IMPACT=MODIFIER;DISTANCE=4812;STRAND=-1
+chr14:18601122:TC:T     14:18601123     -       ENSG00000257115 ENST00000550708 Transcript      frameshift_variant      7       7       3       P/XCcc/cc  -       IMPACT=HIGH;STRAND=1;LoF=LC;LoF_filter=END_TRUNC;LoF_flags=SINGLE_EXON;LoF_info=GERP_DIST:0,BP_DIST:974,PERCENTILE:0.00713557594291539,DIST_FROM_LAST_EXON:-6,50_BP_RULE:FAIL
+chr14:18601122:TC:T     14:18601123     -       ENSG00000257959 ENST00000552261 Transcript      upstream_gene_variant   -       -       -       - --       IMPACT=MODIFIER;DISTANCE=4813;STRAND=-1
+chr14:18601123:C:A      14:18601123     A       ENSG00000257115 ENST00000550708 Transcript      missense_variant        7       7       3       P/TCcc/Acc -       IMPACT=MODERATE;STRAND=1
+chr14:18601123:C:A      14:18601123     A       ENSG00000257959 ENST00000552261 Transcript      upstream_gene_variant   -       -       -       - --       IMPACT=MODIFIER;DISTANCE=4813;STRAND=-1
+chr14:18601124:C:A      14:18601124     A       ENSG00000257115 ENST00000550708 Transcript      missense_variant        8       8       3       P/HcCc/cAc -       IMPACT=MODERATE;STRAND=1
+chr14:18601124:C:A      14:18601124     A       ENSG00000257959 ENST00000552261 Transcript      upstream_gene_variant   -       -       -       - --       IMPACT=MODIFIER;DISTANCE=4814;STRAND=-1
+chr14:18601126:T:C      14:18601126     C       ENSG00000257115 ENST00000550708 Transcript      synonymous_variant      10      10      4       L Ttg/Ctg  -       IMPACT=LOW;STRAND=1
+chr14:18601126:T:C      14:18601126     C       ENSG00000257959 ENST00000552261 Transcript      upstream_gene_variant   -       -       -       - --       IMPACT=MODIFIER;DISTANCE=4816;STRAND=-1
