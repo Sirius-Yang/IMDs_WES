@@ -7,29 +7,13 @@
 
 
 Pheno="Diabetes"
-#用--glm要做这些操作，把0,1换成1，2；但是--logistic不需要
+# transfrom to format for plink to perform association tests
 awk 'BEGIN{print "PLINK_ID\tIID\tIF"}''{FS=","}{OFS="\t"}{print 0,$1,$2}' $HOME/SiriusWhite/AIDs/DiseaseData/${Pheno}_Caucasian.csv > $HOME/SiriusWhite/AIDs/WESCommon/${Pheno}/WESCommon_${Pheno}_middle.csv
 awk '{OFS="\t"}{if ($NF==0) $1=1}{if ($NF==1) $1=2}1' $HOME/SiriusWhite/AIDs/WESCommon/${Pheno}/WESCommon_${Pheno}_middle.csv > $HOME/SiriusWhite/AIDs/WESCommon/${Pheno}/WESCommon_${Pheno}_middle2.csv
 awk 'BEGIN{print "PLINK_ID\tIID\tIF"}''{OFS="\t"}{print 0,$2,$1}' $HOME/SiriusWhite/AIDs/WESCommon/${Pheno}/WESCommon_${Pheno}_middle2.csv > $HOME/SiriusWhite/AIDs/WESCommon/${Pheno}/WESCommon_${Pheno}_Outcome.csv
 sed -i '2,3d' $HOME/SiriusWhite/AIDs/WESCommon/${Pheno}/WESCommon_${Pheno}_Outcome.csv
 awk 'BEGIN{print "PLINK_ID\tIID\tAge\tSex\tPC1\tPC2\tPC3\tPC4\tPC5\tPC6\tPC7\tPC8\tPC9\tPC10"}''{FS=","}{OFS="\t"}{print 0,$1,$3,$5,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16}' $HOME/SiriusWhite/AIDs/DiseaseData/${Pheno}_Caucasian.csv > $HOME/SiriusWhite/AIDs/WESCommon/${Pheno}/WESCommon_${Pheno}_Covar.csv
 sed -i '2,2d' $HOME/SiriusWhite/AIDs/WESCommon/${Pheno}/WESCommon_${Pheno}_Covar.csv
-
-
-#!/bin/bash
-
-inputfile="your_input_filename_here.csv"
-# 提取列标题
-header=$(head -1 "$inputfile")
-
-# 从第2列到最后一列循环处理每个表型
-for i in $(seq 2 $(echo "$header" | awk -F'\t' '{print NF}')); do
-    # 获取当前表型名称
-    phenotype=$(echo "$header" | awk -F'\t' -v col=$i '{print $col}')
-    
-    # 提取eid和当前表型到新文件
-    awk -F'\t' -v col=$i 'NR==1 || {print $1 "\t" $col}' "$inputfile" > "${phenotype}_with_eid.txt"
-done
 
 for i in {1..22};do
 plink2 --bfile /mnt/storage/home1/Huashan1/UKB_WES_data/qcstep5/unrelated_0_0884/ukb_wes_chr${i}_sample_qc_final_unrelated \
