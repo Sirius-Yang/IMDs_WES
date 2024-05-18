@@ -1,4 +1,6 @@
-# Calculating those Ti/Tv, Het/Hom, SNV/indels, and number of singletons out of 8 s.d. and sample call rate < 0.9
+# Combining the results from Outlier.sh
+# Calculating Ti/Tv, Het/Hom, SNV/indels, number of singletons, and sample call rate
+# Exclude Ti/Tv, Het/Hom, SNV/indels, and number of singletons out of 8 s.d, and sample call rate < 0.9 from ID list
 library(data.table)
 setwd("/home1/Huashan1/UKB_WES_data/qcstep4/sample_qc/")
 rm(list = ls())
