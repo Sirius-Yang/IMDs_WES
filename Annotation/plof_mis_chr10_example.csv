@@ -1,4 +1,5 @@
-# example of input to 
+# example of plof_mis_chr10.csv
+# The result of SnpEff was further transformed to plof_mis_chr${i}.csv by using `awk` commands and further inputted into GroupFileGenerate.py, to generate files that SAIGE can recognize
 CHROM   POS     ID      REF     ALT     ANN[*].ALLELE   ANN[*].EFFECT   ANN[*].GENE
 10      47124   chr10:47124:T:C T       C       C       missense_variant        TUBB8
 10      47124   chr10:47124:T:C T       C       C       missense_variant        TUBB8
