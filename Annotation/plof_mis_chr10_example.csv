@@ -1,0 +1,11 @@
+# example of input to 
+CHROM   POS     ID      REF     ALT     ANN[*].ALLELE   ANN[*].EFFECT   ANN[*].GENE
+10      47124   chr10:47124:T:C T       C       C       missense_variant        TUBB8
+10      47124   chr10:47124:T:C T       C       C       missense_variant        TUBB8
+10      47124   chr10:47124:T:C T       C       C       missense_variant        TUBB8
+10      47134   chr10:47134:A:G A       G       G       missense_variant        TUBB8
+10      47134   chr10:47134:A:G A       G       G       missense_variant        TUBB8
+10      47190   chr10:47190:T:TC        T       TC      TC      frameshift_variant      TUBB8
+10      47190   chr10:47190:T:TC        T       TC      TC      frameshift_variant      TUBB8
+10      47190   chr10:47190:T:TC        T       TC      TC      frameshift_variant      TUBB8
+10      47202   chr10:47202:C:CA        C       CA      CA      frameshift_variant      TUBB8
