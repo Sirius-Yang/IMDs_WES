@@ -1,0 +1,11 @@
+# head of merge_list_chr9.txt
+/mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b0_v1.bed /mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b0_v1.bim /mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b0_v1.fam 
+/mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b10_v1.bed /mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b10_v1.bim /mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b10_v1.fam
+/mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b11_v1.bed /mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b11_v1.bim /mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b11_v1.fam
+/mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b12_v1.bed /mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b12_v1.bim /mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b12_v1.fam
+/mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b13_v1.bed /mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b13_v1.bim /mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b13_v1.fam
+/mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b14_v1.bed /mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b14_v1.bim /mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b14_v1.fam
+/mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b15_v1.bed /mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b15_v1.bim /mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b15_v1.fam
+/mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b16_v1.bed /mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b16_v1.bim /mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b16_v1.fam
+/mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b17_v1.bed /mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b17_v1.bim /mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b17_v1.fam
+/mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b18_v1.bed /mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b18_v1.bim /mnt/storage/home1/Huashan1/SiriusWhite/plinkdata/ukb23148_c9_b18_v1.fam
