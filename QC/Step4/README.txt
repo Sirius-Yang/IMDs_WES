@@ -11,7 +11,8 @@ Duplicated individuals were identified using king software in NoDuplicated.sh, w
 An example of the first few lines of this file is provided (king_example.con).
 
 Kinship coefficients were calculated with Relative.sh, with a kinship threshold set at 0.0884 (second-degree relatives). 
-To maximize sample retention, for each pair with a kinship coefficient > 0.0884, we iteratively removed individuals related to multiple others until none remained, then randomly removed one individual from each related pair (using keep_unrelated_2nd.R). 
+An example of the first few lines of kinship result was provided (ukb_wes_chr_all_king_sample_qc.kin0).
+To maximize sample retention, for each pair with a kinship coefficient > 0.0884, we iteratively removed individuals related to multiple others until none remained, then randomly removed one individual from each related pair by using keep_unrelated_2nd.R. 
 
 Finaaly, we removed duplicated and second-degree related samples from the entire dataset and the high-quality variants. 
-PCA was then calculated using high-quality variants (PCA.sh), and the first 10 PCA (as examplified: ) was used as covariates in SAIGE.
+PCA was then calculated using high-quality variants (PCA.sh), and the first 10 PCA (an example: ) was used as covariates in SAIGE.
