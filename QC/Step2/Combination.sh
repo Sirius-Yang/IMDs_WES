@@ -5,12 +5,6 @@ mkdir ~/UKB_WES_data/qcstep1/merge_by_chrom/
 cd ~/UKB_WES_data/qcstep1/merge_by_chrom/
 dx download project-GF4jpV8JyFyK68BP64YpqFYQ:/Sirius_data/plink/ukb*
 
-# name of files to combine
-chrt=$(seq 1 22)
-for i in $chrt; do
-    ls *c${i}* > merge_list_chr${i}.txt
-done
-
 for i in $chrt; do
   cat merge_list_chr${i}.txt | head -n 1 >> merge_list_first_row_clean.txt
 done
