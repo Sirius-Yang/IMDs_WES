@@ -1,4 +1,4 @@
-#generate matrix for call rate and Ti, Tv, Het, Hom, singletons
+#generate matrix for call rate and Ti, Tv, Het, Hom, singletons (ended of .scount， as provided in example)
 for i in {1..22};do
 /home1/Huashan1/wbs_data/software/plink2 \
 --bfile /home1/Huashan1/UKB_WES_data/QCstep2/WES_step2v2_chr${i}_qc \
