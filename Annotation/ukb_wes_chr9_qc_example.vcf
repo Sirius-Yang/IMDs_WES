@@ -1,3 +1,6 @@
+# head of ukb_wes_chr9_qc.vcf. Predicted loss-of-function (pLOF) variants were those annotated to cause frameshift insertion/deletion, splice acceptor, splice donor, stop gain, start loss, and stop loss.
+
+
 ##SnpEffVersion="5.1d (build 2022-04-19 15:49), by Pablo Cingolani"
 ##SnpEffCmd="SnpEff  GRCh38.105 /home1/Huashan1/UKB_WES_data/snpEff/input/ukb_wes_chr9_qc.bim "
 ##INFO=<ID=ANN,Number=.,Type=String,Description="Functional annotations: 'Allele | Annotation | Annotation_Impact | Gene_Name | Gene_ID | Feature_Type | Feature_ID | Transcript_BioType | Rank | HGVS.c | HGVS.p | cDNA.pos / cDNA.length | CDS.pos / CDS.length | AA.pos / AA.length | Distance | ERRORS / WARNINGS / INFO' ">
