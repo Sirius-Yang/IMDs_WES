@@ -1,4 +1,4 @@
-# head of REVEL_chr15.csv
+# head of REVEL_chr15.txt
 chr15:20534511:C:T      15:20534511     T       ENSG00000277322 ENST00000619213 Transcript      synonymous_variant      2014    1923    641     E gaG/gaA  -       IMPACT=LOW;STRAND=-1
 chr15:20534513:C:T      15:20534513     T       ENSG00000277322 ENST00000619213 Transcript      missense_variant        2012    1921    641     E/KGag/Aag -       IMPACT=MODERATE;STRAND=-1;REVEL=0.053
 chr15:20534520:T:C      15:20534520     C       ENSG00000277322 ENST00000619213 Transcript      synonymous_variant      2005    1914    638     Q caA/caG  -       IMPACT=LOW;STRAND=-1
