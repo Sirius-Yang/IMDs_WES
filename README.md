@@ -7,4 +7,7 @@ Following QC, annotation starts; the primary analysis utilizes SnpEff for annota
 
 Subsequently, variant and gene-based association tests are conducted separately for common and rare variants, and sensitivity analysis were further adopted to validate their robustness.
 
-Finally, various post-analyses are performed, including BHR heritage analysis and correlation analysis, Cox survival analysis, Gene expression, MR analysis, annotating amino acid alterations, Proteomic-wide analysis, and PheWAS analysis. 
+Finally, various post-analyses are performed, including BHR heritage analysis and correlation analysis, convergene with GWAS signals, Cox survival analysis, Gene expression, MR analysis, annotating amino acid alterations, Proteomic-wide analysis, and PheWAS analysis. We have uploaded important codes for this section.
+
+Workflow: QC -> Annotation -> Association -> PostAnalysis
+Under each directory, we further provided a README.txt in which more detailed information is provided, and the important input files or result files (that are not bed/bim/fam format) to provide a more direct visuallization.
