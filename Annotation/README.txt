@@ -13,7 +13,7 @@ We then organized the results using awk and simple bash commands, as demonstrate
 ---
 
 VEP：
-In the case-control enrichment, we used VEP to quantify and classify variants. 
+To validate SAIGE results, we changed the annotation method in the case-control enrichment analysis, using VEP to annotate gene mutation types.
 
 First, loss-of-function variants were identified using the LOFTEE plugin in VEP, with Highly Confident (HC) sites classified as pLOF. An example of result was displayed in loftee_chr14_example.txt
 
