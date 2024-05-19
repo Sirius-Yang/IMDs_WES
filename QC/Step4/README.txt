@@ -1,4 +1,11 @@
-Step4 :  Calculating kinship and PCA using high-quality SNPs. 
+Step4 :  Further QC using high-quality variants 
+---
+
+In this part, three QC were performed:
+· kinship calculation, 2nd degree and above relatives were excluded
+· remove duplicated samples between instances / centers
+· calculate principle componets
+
 ---
 
 High-quality SNPs were selected by using HighQuality.sh, which filtered:
