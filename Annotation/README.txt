@@ -17,4 +17,4 @@ In the case-control enrichment, we used VEP to quantify and classify variants.
 
 First, loss-of-function variants were identified using the LOFTEE plugin in VEP, with Highly Confident (HC) sites classified as pLOF. An example of result was displayed in loftee_chr14_example.txt
 
-Missense variants were scored using the REVEL plugin, with higher scores indicating greater potential harm. These scores were then categorized into four groups: 0-25, 25-50, 50-75, and 75-100. A header of the result file, REVEL_chr15.txt, was provided (REVEL_chr15_example.txt)
+Missense variants were scored using the REVEL plugin, with higher scores indicating greater potential impact. These scores were then categorized into four groups: 0-25, 25-50, 50-75, and 75-100. A header of the result file, REVEL_chr15.txt, was provided (REVEL_chr15_example.txt)
