@@ -1,4 +1,4 @@
-# head of ukb_wes_chr9_qc.vcf. Predicted loss-of-function (pLOF) variants were those annotated to cause frameshift insertion/deletion, splice acceptor, splice donor, stop gain, start loss, and stop loss.
+# head of ukb_wes_chr9_SnpEff.vcf. Predicted loss-of-function (pLOF) variants were those annotated to cause frameshift insertion/deletion, splice acceptor, splice donor, stop gain, start loss, and stop loss.
 
 
 ##SnpEffVersion="5.1d (build 2022-04-19 15:49), by Pablo Cingolani"
