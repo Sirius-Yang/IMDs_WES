@@ -1,3 +1,4 @@
+# Result of gene -disease association pairs from SAIGE. Used in Case_Control.py
 Gene,Pheno
 CD1D,AA
 KLHDC9,AA
