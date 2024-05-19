@@ -24,8 +24,8 @@ Study Design. Created with Adobe, no analysis or code involved.
 
 **Plot 2:**
 
-- (A) Results of gene-based collapse analysis for rare variants, main result 1. All codes provided (QC, Annotation, GRM.sh, SAIGE.sh).
-- (B) Results of case-control enrichment.
+- (A) Results of gene-based collapse analysis for rare variants, main result 1. All codes provided (QC, SnpEff, GRM.sh, SAIGE.sh).
+- (B) Results of case-control enrichment. All codes provided (QC, VEP, Case_Control.py).
 
 **Plot 3:**
 
