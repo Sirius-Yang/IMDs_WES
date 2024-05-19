@@ -6,7 +6,7 @@ For rare variants (maf < 0.01), we use SAIGE for gene-based collapse analysis.
 First, a sparse GRM is created using the GRM.sh script, which only needs to be run once. This GRM will be adjusted in subsequent SAIGE analyses. 
 Then, we run the SAIGE.sh script, which performs Step1 and Step2 sequentially to obtain gene-based results. 
 
-To further validate SAIGE results, we conducted a case-control enrichment analysis by comparing the mutation counts of genes deemed significant by SAIGE in both cases and controls for each disease by using Case_Control.py. This approach is also simpler and more feasible than SAIGE association analysis, offering better clinical applicability.
+To further validate SAIGE results, we conducted a case-control enrichment analysis by comparing the mutation counts in cases and controls of genes identified significant for each disease by using Case_Control.py. This approach is also simpler and more feasible than SAIGE association analysis, offering better clinical applicability.
 
 ---
 
