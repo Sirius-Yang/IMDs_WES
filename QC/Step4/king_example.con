@@ -1,4 +1,4 @@
-# head of king.con, resulted use to remove duplication
+# head of king.con, identified duplicated samples
 FID1    ID1     FID2    ID2     N       N_IBS0  N_IBS1  N_IBS2  Concord HomConc HetConc
 0       1018789 0       1403886 75157   0       1       75156   0.99999 1.00000 0.99975
 0       1148519 0       5610337 75217   0       0       75217   1.00000 1.00000 1.00000
