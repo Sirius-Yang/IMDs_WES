@@ -14,7 +14,7 @@ nohup vep -i /home1/Huashan1/SiriusWhite/AIDs/VEP/dbNSFP/VEP_chr${i}.txt \
 --cache --dir $HOME/.vep \
 --cache_version 108 \
 --assembly GRCh38 \
---plugin REVEL,/home1/Huashan1/.vep/Plugins/dbNSFPFiles/dbNSFP4.3c_grch38.gz \
+--plugin REVEL,/home1/Huashan1/.vep/Plugins/Sirius_tabbed_revel_grch38.tsv.gz \
 -o /mnt/storage/home1/Huashan1/SiriusWhite/AIDs/VEP/REVEL/REVEL_chr${i}.txt \
 --force_overwrite &
 done
