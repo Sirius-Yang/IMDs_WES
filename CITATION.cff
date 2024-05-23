@@ -1,7 +1,7 @@
 # This CITATION.cff file was generated with cffinit.
 # Visit https://bit.ly/cffinit to generate yours today!
 
-cff-version: 1.0
+cff-version: 1.2.0
 title: IMDs_WES
 message: >-
   If you are using code or pipelines from this
