@@ -1,0 +1,11 @@
+# header of ukb_wes_chr9.avinput, the input file format of annovar
+9       14753   14753   T       C       chr9:14753:T:C
+9       14754   14754   G       A       chr9:14754:G:A
+9       14755   14755   T       C       chr9:14755:T:C
+9       14758   14758   G       C       chr9:14758:G:C
+9       14761   14761   C       T       chr9:14761:C:T
+9       14765   14765   G       A       chr9:14765:G:A
+9       14770   14770   A       G       chr9:14770:A:G
+9       14774   14774   C       A       chr9:14774:C:A
+9       14777   14777   G       C       chr9:14777:G:C
+9       14777   14777   G       T       chr9:14777:G:T
