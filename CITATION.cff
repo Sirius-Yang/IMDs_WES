@@ -2,7 +2,7 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: IMDs_WES
+title: Large-scale whole exome sequencing analyses identified protein-coding variants associated with immune-mediated diseases in 350770 adults
 message: >-
   If you are using code or pipelines from this
   repository,please consider citing our associated article
