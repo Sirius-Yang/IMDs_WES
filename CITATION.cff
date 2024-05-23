@@ -1,34 +1,34 @@
-cff-version: 1.0
-message: "If you use this software, please cite it as below."
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: IMDs_WES
+message: >-
+  If you are using code or pipelines from this
+  repository,please consider citing our associated article
+type: dataset
 authors:
-- family-names: "Yang"
-  given-names: "Liu"
-  orcid: "https://orcid.org/0000-0002-2435-1484"
-- family-names: "Wu"
-  given-names: "BangSheng"
-  orcid: "https://orcid.org/0000-0002-8807-6354"
-title: "IMDs_WES"
-version: 1.0
-doi: 10.5281/zenodo.11260211
-date-released: 2024-05-23
-url: "https://github.com/Sirius-Yang/IMDs_WES/"
-preferred-citation:
-  type: article
-  authors:
-  - family-names: "Yang"
-    given-names: "Liu"
-    orcid: "https://orcid.org/0000-0002-2435-1484"
-  - family-names: "Wu"
-    given-names: "BangSheng"
-    orcid: ""
-title: "IMDs_WES"
-version: 1.0
-doi: 10.5281/zenodo.11260211
-date-released: 2024-05-23
-url: "https://github.com/Sirius-Yang/IMDs_WES/"
-preferred-citation:
-  type: article
-  authors:
-  - family-names: "Yang"
-    given-names: "Liu"
-    orcid: "https://orcid.org/0000-0002-2435-1484"
+  - given-names: Liu
+    family-names: Yang
+    orcid: 'https://orcid.org/0000-0002-2435-1484'
+  - given-names: Bangsheng
+    family-names: Wu
+    orcid: 'https://orcid.org/0000-0002-8807-6354'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.11260211
+repository-code: 'https://github.com/Sirius-Yang/IMDs_WES'
+abstract: >-
+  This repository contains the code used to perform quality
+  control, annotation, and association tests for the
+  manuscript titled "Large-scale whole exome sequencing
+  analyses identified protein-coding variants associated
+  with immune-mediated diseases in 350770 adults"
+keywords:
+  - whole exome sequencing
+  - immune-mediated disease
+  - autoimmune disease
+  - protein-coding variants
+license: MIT
+version: '1.0'
+date-released: '2024-05-23'
