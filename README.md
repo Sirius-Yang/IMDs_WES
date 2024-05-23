@@ -1,4 +1,4 @@
-Large-scale whole exome sequencing of immune-mediated diseases in 350770 adults 
+Large-scale whole exome sequencing analyses identified protein-coding variants associated with immune-mediated diseases in 350770 adults
 ---
 This repository contains code of quality control, annotation, association test for common (logisitic) and rare (SKAT) variants.
 
