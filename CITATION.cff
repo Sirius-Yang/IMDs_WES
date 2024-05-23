@@ -12,3 +12,23 @@ version: 1.0
 doi: 10.5281/zenodo.11260211
 date-released: 2024-05-23
 url: "https://github.com/Sirius-Yang/IMDs_WES/"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Yang"
+    given-names: "Liu"
+    orcid: "https://orcid.org/0000-0002-2435-1484"
+  - family-names: "Wu"
+    given-names: "BangSheng"
+    orcid: ""
+title: "IMDs_WES"
+version: 1.0
+doi: 10.5281/zenodo.11260211
+date-released: 2024-05-23
+url: "https://github.com/Sirius-Yang/IMDs_WES/"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Yang"
+    given-names: "Liu"
+    orcid: "https://orcid.org/0000-0002-2435-1484"
