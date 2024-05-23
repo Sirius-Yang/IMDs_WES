@@ -7,7 +7,7 @@ authors:
 - family-names: "Wu"
   given-names: "BangSheng"
   orcid: "https://orcid.org/0000-0002-8807-6354"
-title: "Large-scale whole exome sequencing analyses identified protein-coding variants associated with immune-mediated diseases in 350770 adults"
+title: "IMDs_WES"
 version: 1.0
 doi: 10.5281/zenodo.11260211
 date-released: 2024-05-23
