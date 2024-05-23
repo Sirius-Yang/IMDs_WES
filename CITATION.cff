@@ -4,8 +4,13 @@ authors:
 - family-names: "Yang"
   given-names: "Liu"
   orcid: "https://orcid.org/0000-0002-2435-1484"
+- family-names: "Wu"
+  given-names: "Bangsheng"
+  orcid: "https://orcid.org/0000-0002-8807-6354"
 title: "Large-scale whole exome sequencing analyses identified protein-coding variants associated with immune-mediated diseases in 350770 adults"
 version: 1.0
-doi: 10.5281/zenodo.11260211
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.11260211
 date-released: 2024-05-23
 url: "https://github.com/Sirius-Yang/IMDs_WES"
