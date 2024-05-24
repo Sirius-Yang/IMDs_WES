@@ -15,6 +15,9 @@ We then organized the results using awk and simple bash commands, as demonstrate
 VEP：
 To validate SAIGE results, we changed the annotation method in the case-control enrichment analysis, using VEP to annotate gene mutation types.
 
-First, loss-of-function variants were identified using the LOFTEE plugin in VEP, with Highly Confident (HC) sites classified as pLOF. An example of result was displayed in loftee_chr14_example.txt
-
 Missense variants were scored using the REVEL plugin, with higher scores indicating greater potential impact. These scores were then categorized into four groups: 0-25, 25-50, 50-75, and 75-100. A header of the result file, REVEL_chr15.txt, was provided (REVEL_chr15_example.txt)
+
+---
+
+ANNOVAR：
+Common variants were mapped to genes by using ANNOVAR.
