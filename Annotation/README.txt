@@ -20,4 +20,4 @@ Missense variants were scored using the REVEL plugin, with higher scores indicat
 ---
 
 ANNOVAR：
-Common variants were mapped to genes by using ANNOVAR. We provided an example file as the format of input file for ANNOVAR: ukb_wes_chr9_example.avinput ( header of ukb_wes_chr9.avinput)
+Common variants were mapped to genes by using ANNOVAR. We provided an example file as the format of input file for ANNOVAR: ukb_wes_chr9_example.avinput (header of ukb_wes_chr9.avinput)
