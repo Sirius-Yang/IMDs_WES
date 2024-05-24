@@ -10,7 +10,7 @@ Workflow: QC -> Annotation -> Association -> PostAnalysis
 
 The complete analysis workflow begins with quality control (QC) from Step1 to Step4. 
 
-Following QC, annotation starts; the primary analysis utilizes SnpEff for annotations, while case-control enrichment employs VEP annotations. 
+Following QC, annotation starts; the primary analysis utilizes SnpEff for annotations of rare variants and ANNOVAR for common variants, while case-control enrichment employed VEP annotations. 
 
 Subsequently, variant and gene-based association tests are conducted separately for common and rare variants, and sensitivity analysis were further adopted to validate their robustness.
 
@@ -29,7 +29,7 @@ Study Design. Created with Adobe, no analysis or code involved.
 
 **Plot 3:**
 
-- (A) Results of variant-level association test for common variants. All codes provided (QC, common.sh, clump.sh).
+- (A) Results of variant-level association test for common variants. All codes provided (QC, Annovar, common.sh, clump.sh).
 - (B) Convergence of GWAS signals. Main GWAS code provided (GWAS.sh).
 - (C) Pleiotropy effects of common variants. Summarizes results from 3A, no additional code provided.
 
@@ -41,7 +41,7 @@ Study Design. Created with Adobe, no analysis or code involved.
 **Plot 5:**
 
 - (A) Protein expression levels between mutation carriers and non-carriers. A simple t-test.
-- (B) MR analysis. All codes provided.
+- (B) MR analysis. All codes provided (MR.R).
 - (C) Annotation of amino acid alterations.
 
 **Plot 6:**
