@@ -18,7 +18,7 @@ authors:
     orcid: 'https://orcid.org/0000-0002-8807-6354'
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.11260211
+    value: 10.5281/zenodo.11307851
 repository-code: 'https://github.com/Sirius-Yang/IMDs_WES'
 abstract: >-
   This repository contains the code used to perform quality
