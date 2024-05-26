@@ -8,12 +8,12 @@ Frameshift insertion/deletion, splice acceptor, splice donor, stop gain, start l
 
 Predicted deleterious missense (pmis) variants were defined as those consistently predicted to be deleterious by five in silico tools: SIFT, LRT, PolyPhen2 HDIV, PolyPhen2 HVAR, and MutationTaster. An example of these results is provided in ukb_wes_chr10_SnpEff_five_example.vcf (the first few lines of chr10 annotations). 
 
-We then organized the results using awk and simple bash commands, as demonstrated in plof_mis_chr10_example.csv.
+We then organized the results using awk and simple bash commands, as demonstrated in plof_mis_chr10_example.csv. GroupfileGenerate.py was used to transfer the annotation results into the format of SAIGE step2.
 
 ---
 
 VEP：
-To validate SAIGE results, we changed the annotation method in the case-control enrichment analysis, using VEP to annotate gene mutation types.
+To validate SAIGE results, we further performed case-control enrichment analysis. To categorize the potential impact of missense variants, we assessed their REVEL score by using VEP.
 
 Missense variants were scored using the REVEL plugin, with higher scores indicating greater potential impact. These scores were then categorized into four groups: 0-25, 25-50, 50-75, and 75-100. A header of the result file, REVEL_chr15.txt, was provided (REVEL_chr15_example.txt)
 
