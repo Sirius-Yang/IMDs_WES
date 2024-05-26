@@ -8,7 +8,7 @@ Frameshift insertion/deletion, splice acceptor, splice donor, stop gain, start l
 
 Predicted deleterious missense (pmis) variants were defined as those consistently predicted to be deleterious by five in silico tools: SIFT, LRT, PolyPhen2 HDIV, PolyPhen2 HVAR, and MutationTaster. An example of these results is provided in ukb_wes_chr10_SnpEff_five_example.vcf (the first few lines of chr10 annotations). 
 
-We then organized the results using awk and simple bash commands, as demonstrated in plof_mis_chr10_example.csv. GroupfileGenerate.py was used to transfer the annotation results into the format of SAIGE step2.
+We then organized the results using awk and simple bash commands, as demonstrated in plof_mis_chr10_example.csv. GroupFileGenerate.py was used to transfer the annotation results into the format of SAIGE step2.
 
 ---
 
